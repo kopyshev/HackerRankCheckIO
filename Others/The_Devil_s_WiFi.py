@@ -1,7 +1,7 @@
 from decimal import Decimal, getcontext
 from math import factorial
 
-getcontext().prec = 1000
+getcontext().prec = 1000 #need for sqrt() precision
 
 def devils_wifi(position, n = 800):
     # the Chudnovsky brothers' formula
